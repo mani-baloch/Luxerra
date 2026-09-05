@@ -29,6 +29,15 @@ export const metadata: Metadata = {
     "modern home decor",
   ],
   authors: [{ name: "Luxerra Interiors" }],
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/icon.png", type: "image/png", sizes: "192x192" },
+    ],
+    shortcut: "/icon.svg",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "LUXÈRRA — Live in Luxury",
     description:
